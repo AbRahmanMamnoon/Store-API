@@ -3,7 +3,7 @@ const productsRout = require("./routs/productRouts");
 const connectDB = require("./db/connection");
 const notfound = require("./middleware/not-found");
 const errHandlerMiddleware = require("./middleware/err-handler");
-require('express-async-error');
+require('express-async-errors');
 const app = express();
 require('dotenv').config();
 
